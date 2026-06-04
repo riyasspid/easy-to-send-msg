@@ -73,13 +73,14 @@ export default function Page(){
     </form>
     <div className="flex">
     <div className="flex mx-auto place-items-center h-[100px] w-[200px]">
-    <button
-    className="bg-black mx-auto mt-5 text-white h-10 w-10 rounded-3xl hover:bg-black/70 transfrom transtion-all duration-200"
-    onClick={() => setClireq(clireq+1)}>+</button>
-    <div className="mx-auto bg-black text-center place-content-center text-white text-2xl mt-5 h-20 w-20 rounded-full"><p>{clireq}</p></div>
-    <button
+  
+      <button
     className="bg-black mx-auto mt-5 text-white h-10 w-10 rounded-3xl hover:bg-black/70 transfrom transtion-all duration-200"
     onClick={() => {{if(clireq > 0){setClireq(clireq-1)}}}}>-</button>
+    <div className="mx-auto bg-black text-center place-content-center text-white text-2xl mt-5 h-20 w-20 rounded-full"><p>{clireq}</p></div>
+      <button
+    className="bg-black mx-auto mt-5 text-white h-10 w-10 rounded-3xl hover:bg-black/70 transfrom transtion-all duration-200"
+    onClick={() => setClireq(clireq+1)}>+</button>
     </div>
     </div>
     <button
