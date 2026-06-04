@@ -63,7 +63,7 @@ export default function Page(){
     <div className="pt-10 w-full flex flex-col justify-items-center">
     <form onSubmit={sendMessage} className="grid grid-row justify-items-center gap-10">
       <textarea
-      className="border rounded-xl p-2 w-100"
+      className="border rounded-xl p-2 w-60"
       name="message"
       placeholder="Enter your message"
       />
