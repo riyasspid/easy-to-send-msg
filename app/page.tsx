@@ -5,7 +5,7 @@ type Messages = {
   text :string;
 };
 
-export default function page(){
+export default function Page(){
   const [messages, setMessages] = useState<Messages[]>([]);
   const [showMessage, setShowMessage] = useState<boolean>(false);
   const [clireq, setClireq] = useState<number>(1)
